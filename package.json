@@ -1,0 +1,27 @@
+{
+  "name": "ogdata-inventory-tracker",
+  "version": "1.0.0",
+  "description": "A simple service that tracks daily and weekly inventory data for OGData",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abioduog/ogData-inventory-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abioduog/ogData-inventory-tracker/issues"
+  },
+  "homepage": "https://github.com/abioduog/ogData-inventory-tracker#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3"
+  }
+}
